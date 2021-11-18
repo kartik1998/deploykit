@@ -1,5 +1,5 @@
 {
-  "name": "resl",
+  "name": "recl",
   "version": "1.0.0",
   "description": "a utility tool to make deployments easy ",
   "main": "index.js",
