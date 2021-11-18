@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 const fs = require('fs');
 const inquirer = require('inquirer');
+const { execSync } = require('child_process');
 const { ENV_DIR, DEPLOY_DIR } = process.env;
 
 (function verifyEnv() {
@@ -32,5 +33,5 @@ const deployOpts = {
   const dep = await inquirer.prompt(deployOpts);
   if (dep.deploymentScript === 'Exit') return;
   const deployScript = `${DEPLOY_DIR}/${dep['deploymentScript']}`;
-  console.log({ deployScript });
+  execSync(`env $(cat ${env}) bash ${deployScript}`, { stdio: 'inherit'});
 })();
