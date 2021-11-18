@@ -33,5 +33,5 @@ const deployOpts = {
   const dep = await inquirer.prompt(deployOpts);
   if (dep.deploymentScript === 'Exit') return;
   const deployScript = `${DEPLOY_DIR}/${dep['deploymentScript']}`;
-  execSync(`env $(cat ${env}) bash ${deployScript}`, { stdio: 'inherit'});
+  execSync(`env $(cat ${env}) bash ${deployScript}`, { stdio: 'inherit' });
 })();
