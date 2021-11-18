@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/kartik1998/resl/issues"
   },
-  "homepage": "https://github.com/kartik1998/resl#readme"
+  "homepage": "https://github.com/kartik1998/resl#readme",
+  "dependencies": {
+    "inquirer": "^8.2.0"
+  }
 }
