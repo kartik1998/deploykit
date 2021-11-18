@@ -1,13 +1,13 @@
 {
-  "name": "recl",
-  "version": "1.2.0",
+  "name": "@kartikkhk/deploy",
+  "version": "1.0.0",
   "description": "a utility tool to make deployments easy ",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
   "bin": {
-    "recl": "./index.js"
+    "deploy": "./index.js"
   },
   "repository": {
     "type": "git",
