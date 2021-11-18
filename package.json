@@ -1,5 +1,5 @@
 {
-  "name": "@kartikkhk/deploy",
+  "name": "pm4",
   "version": "1.0.0",
   "description": "a utility tool to make deployments easy ",
   "main": "index.js",
@@ -7,11 +7,11 @@
     "start": "node index.js"
   },
   "bin": {
-    "deploy": "./index.js"
+    "pm4": "./index.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kartik1998/resl.git"
+    "url": "git+https://github.com/kartik1998/pm4.git"
   },
   "keywords": [
     "deployment",
@@ -20,9 +20,9 @@
   "author": "Kartik",
   "license": "WTFPL",
   "bugs": {
-    "url": "https://github.com/kartik1998/resl/issues"
+    "url": "https://github.com/kartik1998/pm4/issues"
   },
-  "homepage": "https://github.com/kartik1998/resl#readme",
+  "homepage": "https://github.com/kartik1998/pm4#readme",
   "dependencies": {
     "inquirer": "^8.2.0"
   }
