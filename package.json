@@ -6,6 +6,9 @@
   "scripts": {
     "start": "node index.js"
   },
+  "bin": {
+    "gmeet": "./index.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/kartik1998/resl.git"
