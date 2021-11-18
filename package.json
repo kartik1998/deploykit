@@ -1,0 +1,23 @@
+{
+  "name": "resl",
+  "version": "1.0.0",
+  "description": "a utility tool to make deployments easy ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kartik1998/resl.git"
+  },
+  "keywords": [
+    "deployment",
+    "automation"
+  ],
+  "author": "Kartik",
+  "license": "WTFPL",
+  "bugs": {
+    "url": "https://github.com/kartik1998/resl/issues"
+  },
+  "homepage": "https://github.com/kartik1998/resl#readme"
+}
