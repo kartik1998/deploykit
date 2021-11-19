@@ -14,9 +14,9 @@ Also ensure that these directories <b>only have files</b>
 
 ### Usage
 
-- Just install deploykit and run `deploy`!
+- Just install deploykit and run `deploy`
 
 ### Example Screenshots
 
-[](./assets/example1.png)
-[](./assets/example2.png)
+![example1](./assets/example1.png) <br/>
+![example2](./assets/example2.png)
