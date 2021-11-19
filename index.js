@@ -30,6 +30,7 @@ const deployOpts = {
   const res = await inquirer.prompt(envOpts);
   if (res.envFile === 'Exit') return;
   const env = `${ENV_DIR}/${res['envFile']}`;
+  console.log(fs.readFileSync(env, 'utf-8'))
   const dep = await inquirer.prompt(deployOpts);
   if (dep.deploymentScript === 'Exit') return;
   const deployScript = `${DEPLOY_DIR}/${dep['deploymentScript']}`;
