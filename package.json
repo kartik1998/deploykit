@@ -1,5 +1,5 @@
 {
-  "name": "deploykit",
+  "name": "@kartikkhk/deploykit",
   "version": "1.0.0",
   "description": "a utility tool to make deployments easy ",
   "main": "index.js",
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kartik1998/pm4.git"
+    "url": "git+https://github.com/kartik1998/deploykit.git"
   },
   "keywords": [
     "deployment",
@@ -20,9 +20,9 @@
   "author": "Kartik",
   "license": "WTFPL",
   "bugs": {
-    "url": "https://github.com/kartik1998/pm4/issues"
+    "url": "https://github.com/kartik1998/deploykit/issues"
   },
-  "homepage": "https://github.com/kartik1998/pm4#readme",
+  "homepage": "https://github.com/kartik1998/deploykit#readme",
   "dependencies": {
     "inquirer": "^8.2.0"
   }

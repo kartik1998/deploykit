@@ -10,7 +10,7 @@ Also ensure that these directories <b>only have files</b>
 
 ### Installation
 
-`npm i -g deploykit`
+`npm i -g @kartikkhk/deploykit`
 
 ### Usage
 
