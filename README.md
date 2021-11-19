@@ -11,3 +11,12 @@ Also ensure that these directories <b>only have files</b>
 ### Installation
 
 `npm i -g deploykit`
+
+### Usage
+
+- Just install deploykit and run `deploy`!
+
+### Example Screenshots
+
+[](./assets/example1.png)
+[](./assets/example2.png)
