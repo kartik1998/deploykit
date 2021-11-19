@@ -21,5 +21,4 @@ Also ensure that these directories <b>only have files</b>
 ![example1](./assets/example1.png) <br/>
 ![example2](./assets/example2.png)
 
-<br/>
 - **LICENSE**: [WTFPL](http://www.wtfpl.net/)
