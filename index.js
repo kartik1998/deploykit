@@ -26,7 +26,7 @@ const deployOpts = {
   choices: [...deployScripts, 'Exit'],
 };
 
-(async function resl() {
+(async function pm4() {
   const res = await inquirer.prompt(envOpts);
   if (res.envFile === 'Exit') return;
   const env = `${ENV_DIR}/${res['envFile']}`;
