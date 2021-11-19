@@ -15,6 +15,12 @@ Also ensure that these directories <b>only have files</b>
 ### Usage
 
 - Just install deploykit and run `deploy`
+- Sample env file to be placed in `ENV_DIR`:
+
+```
+JENKINS_TOKEN=randomtoken
+ENV=staging
+```
 
 ### Example Screenshots
 
