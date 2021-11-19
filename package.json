@@ -1,12 +1,12 @@
 {
-  "name": "pm4",
+  "name": "deploykit",
   "version": "1.0.0",
   "description": "a utility tool to make deployments easy ",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
-  "bin": {
+  "deploy": {
     "pm4": "./index.js"
   },
   "repository": {
