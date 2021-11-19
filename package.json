@@ -6,8 +6,8 @@
   "scripts": {
     "start": "node index.js"
   },
-  "deploy": {
-    "pm4": "./index.js"
+  "bin": {
+    "deploy": "./index.js"
   },
   "repository": {
     "type": "git",
