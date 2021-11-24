@@ -3,8 +3,8 @@
 <blockquote>
 The script needs two variables from the env "ENV_DIR" & "DEPLOY_DIR"
 I would recommend that you add something like:
-export ENV_DIR=/path/to/directory-with-env-files
-export DEPLOY_DIR=/path/to/directory-with-deploy-scripts
+export ENV_DIR=/path/to/directory-with-env-files <br/>
+export DEPLOY_DIR=/path/to/directory-with-deploy-scripts <br/>
 Also ensure that these directories <b>only have files</b>
 </blockquote>
 
