@@ -2,7 +2,7 @@
 
 <blockquote>
 The script needs two variables from the env "ENV_DIR" & "DEPLOY_DIR"
-I would recommend that you add something like:
+I would recommend that you add something like: <br/>
 export ENV_DIR=/path/to/directory-with-env-files <br/>
 export DEPLOY_DIR=/path/to/directory-with-deploy-scripts <br/>
 Also ensure that these directories <b>only have files</b>
